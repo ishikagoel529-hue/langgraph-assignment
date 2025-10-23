@@ -5,3 +5,7 @@
 ### Video 2
 - **What I learned:** Prompting & running another call.
 - **What I changed:** Asked for 3 bullets instead of a paragraph.
+
+### Video 2
+- **What I learned:** How to modify prompts to get different model responses.
+- **What I changed:** Created a new script asking for bullet points instead of a paragraph.
