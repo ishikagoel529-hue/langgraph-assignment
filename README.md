@@ -78,3 +78,8 @@
 **My tweak:** I trigger review if the answer is >25 words or contains “error”, then let the user choose Approve/Shorten/Rewrite; after review I re-check before finalizing.  
 **How I ran it:** `python module3/lesson4_dynamic_breakpoints.py`  
 **Files:** `module3/lesson4_dynamic_breakpoints.py`
+### Lesson 5: Time Travel (Checkpoints & Replay)
+**What I learned:** How to run a graph with a checkpointer and a `thread_id`, inspect the saved state, and restore an earlier draft (“rewind”) before finalizing.  
+**My tweak:** I keep all drafts in a list and allow a manual rewind (drop the newest draft) before finalizing.  
+**How I ran it:** `python module3/lesson5_time_travel.py`  
+**Files:** `module3/lesson5_time_travel.py`
