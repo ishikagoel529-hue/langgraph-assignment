@@ -62,3 +62,9 @@
 `python module3/lesson1_streaming.py` (from repo root)  
 **Files:**  
 - `module3/lesson1_streaming.py`
+### Lesson 2: Breakpoints
+**What I learned:** How to pause the graph for human review and then resume to finalize the answer (human-in-the-loop).  
+**My tweak:** If the draft isn’t approved, I auto-revise it once with the LLM before finalizing.  
+**How I ran it:** `python module3/lesson2_breakpoints.py`  
+**Files:** `module3/lesson2_breakpoints.py`
+
