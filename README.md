@@ -68,3 +68,8 @@
 **How I ran it:** `python module3/lesson2_breakpoints.py`  
 **Files:** `module3/lesson2_breakpoints.py`
 
+### Lesson 3: Editing State & Human Feedback
+**What I learned:** How to capture human feedback and modify the graph **state** mid-run (draft → human edits → apply edits → final).  
+**My tweak:** If the user gives no edits, I short-circuit and accept the draft; otherwise I re-prompt the LLM to apply the exact edits into a concise final.  
+**How I ran it:** `python module3/lesson3_edit_state.py`  
+**Files:** `module3/lesson3_edit_state.py`
