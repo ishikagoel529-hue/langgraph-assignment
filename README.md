@@ -73,3 +73,8 @@
 **My tweak:** If the user gives no edits, I short-circuit and accept the draft; otherwise I re-prompt the LLM to apply the exact edits into a concise final.  
 **How I ran it:** `python module3/lesson3_edit_state.py`  
 **Files:** `module3/lesson3_edit_state.py`
+### Lesson 4: Dynamic Breakpoints
+**What I learned:** How to pause only when the output fails a quality check by routing with `add_conditional_edges` (dynamic breakpoint pattern).  
+**My tweak:** I trigger review if the answer is >25 words or contains “error”, then let the user choose Approve/Shorten/Rewrite; after review I re-check before finalizing.  
+**How I ran it:** `python module3/lesson4_dynamic_breakpoints.py`  
+**Files:** `module3/lesson4_dynamic_breakpoints.py`
